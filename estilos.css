@@ -1,0 +1,77 @@
+
+main{
+    color: blue;
+    background-color: rgb(18, 215, 225);
+}   
+
+ol {
+   color: aqua;
+   list-style:square;
+}
+ul {
+  list-style-type: none;
+}
+#ol-estilos  
+{
+  color: oldlace;
+  list-style-type: armenian;
+}
+#principal {
+    color: yellow;
+    background-color: blue;
+}
+
+
+
+p {
+  color: red;
+}
+
+.fuentes {
+  font-family: "Pacifico", cursive;
+  font-size:25px;
+  color: deepskyblue;
+  background-color: magenta;
+  line-height:25px;
+  font-weight:bolder;
+  letter-spacing:20px;
+
+}
+
+header {
+  text-align:center;
+}
+
+table {
+  background-color: aqua;
+  color: blue;
+  text-align: center;
+}
+
+thead{
+  background-color: beige;
+  color: darkseagreen;
+}
+
+.recreo{
+  background-color: white;
+}
+
+#buscador{
+  text-align:right;
+}
+
+input {
+  background-color: aqua;
+  color: hotpink;
+}
+
+button {
+  background-color: crimson;
+  color: azure;
+}
+
+#consulta{
+  text-align: center;
+  background-color: white;
+}

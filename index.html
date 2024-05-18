@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2. Practica hoja de estilos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<style>
+    h1{
+        background-color: red;
+    }
+</style>
+<body>
+    <header>
+   <!-- target="_blank" despliega otra pagina-->
+        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+        <img src="images/prueba 1.png" width="250" height="200" alt="prueba">
+        <nav>
+            <a href="nosotros.html">Conocenos</a>
+            <a href="#">Nuestros Servicios</a>
+            <a href="#contacto">datos de contacto</a>
+            <a href="#consulta">hazme una consulta</a>
+        </nav>
+    </header>
+    <main>
+        <section id="buscador">
+            <form target="_blank" action="https://google.com/search">
+                <br>
+                Buscar en google
+                   <input type="text" 
+                   name="q"
+                   placeholder="escribe algo aqui"
+                size="30">
+                <!--input type="submit" value="buscar"-->
+                <button>buscar</button>
+                
+            </form>
+        </section>
+        <section id="Practica">
+    <h1 style="color: white;">Practicando estilos</h1>
+    <ol id="ol-estilos">
+        <li>Practica tus estilos</li>
+        <li>Pruebate</li>
+        <li>Estilos unicos</li>
+        <li><img src="https://w7.pngwing.com/pngs/548/34/png-transparent-adobe-photoshop-macos-bigsur-icon-thumbnail.png" alt="prueba" width="100" height="100"></li>
+    </ol>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab maxime eveniet impedit, quia repellat ad iure! Iste eaque odit, vitae accusamus aperiam id, cum, nisi ut recusandae perferendis fuga rerum!
+        </p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzzNwtaljh6kX1ZQyQ_5ABUnq3QmBUQTebyQ&s" alt="pokemon">
+</section>
+<section id="videos">
+    <h2>videos</h2>
+    <article>
+        <video src="https://youtu.be/JTlBmupykGM?si=Lpc-4y1DP71KeLw_" ></video>
+    </article>
+        <article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NNVjvBdx6_E?si=PWToroHr2p-N0S_5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
+    
+</section>
+<section id="ejercicios">
+    <h1 id="principal" class="fuentes">Estilos Globales</h1>
+   <ol id="tipos-estilos">
+        <li>inline</li>
+        <li>globales de la pagina</li>
+        <li>archivos externos css</li>
+        <ol>
+            <li>del estilo</li>
+            <li>sitios externos</li>
+               <ul>
+                   <li>
+                    con frameworks
+                   </li>
+                   <li>
+                    sin frameworks
+                   </li>
+               </ul>
+        </ol>
+   </ol>
+    <p>
+         ipsum, dolor sit amet consectetur adipisicing elit. Id sed quibusdam, architecto asperiores ipsa ut aspernatur. Nam, sequi itaque. Blanditiis voluptatibus facere temporibus facilis nulla et enim doloremque, autem in!
+    </p>
+    <hr id="contacto">
+</section>
+<section>
+    <h2>Horario de clases</h2>
+    <table border="1" align="center" width "700px">
+        <!--Encabezado de la tabla-->
+        <thead>
+            <tr>
+                <!--Primera fila de la tabla-->
+                <th>Hora/Dia</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Segunda fila de la tabla-->
+            <tr>
+                <td>7:15-9:30</td>
+                <td>Edu.Fisica</td>
+                <td>Matematicas</td>
+                <td>Fisica</td>
+                <td>Biologia</td>
+                <td></td>
+                <td>Informatica</td>
+            </tr>
+            <tr>
+                <td>9:30-10:00</td>
+                <td class="recreo" colspan="5" align="center">Recreo </td>
+                <td>Informatica</td>
+            </tr>
+            <tr>
+                <td>10:00-11:30</td>
+                <td>Biologia</td>
+                <td>Ingles</td>
+                <td>Castellano</td>
+                <td>Matematicas</td>
+                <td>Quimica</td>
+                <td>Informatica</td>
+            <tr>
+                <td>1:00-2:45</td>
+                <td></td>
+                <td>Edu.Fisica</td>
+                <td></td>
+                <td>Fisica</td>
+                <td></td>
+                <td>Informatica</td>    
+            </tr>
+            </tr>
+            <td>2:45-4:00</td>
+            <td colspan="2"></td>
+            <td>Quimica</td>
+            <td></td>
+            <td>Castellano</td>
+            <td>Informatica</td>
+        </tbody>
+
+    </table>
+</section>
+</main>
+<section id="consulta">
+    <h2>hazme una consulta</h2>
+    <p>escribe tu consulta,por favor</p>
+    <form action=""></form>
+    <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="correo" id="correo">
+    </div>
+
+    <div>
+        <label for="correo">correo</label>
+        <input type="text" name="correo" id="">
+            
+    </div>
+    <div>
+        <label for="texto">consulta</label>
+        <div>
+            <label for="">tipos de clientes</label>
+            <select name="tipo" id="tipo">
+                <option value=""></option>
+                <option value="">juridico</option>
+                <option value="">natural</option>
+                <option value="">gubernamental</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <textarea name="" id="texto" cols="50" rows="5"></textarea>
+       
+    <input type="submit" value="enviar consulta">
+    <input type="reset" value="borrar">
+    <input type="checkbox" name="" id="politicas">
+    <label for="politicas">estoy de acuerdo con las politicas de la privacidad</label>
+    </div>
+</section>
+    <footer>
+        <a href="https://twitter.com/?lang=es" target="_blank">
+            <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2023/07/24/99A6058D-B4B9-47A6-9DDD-624AAFDD5349/nuevo-logotipo-twitter-ahora-llamada_98.jpg?crop=1300,731,x0,y11&width=1900&height=1069&optimize=high&format=webply" width="50" height="50">
+        </a>
+        
+        <a href="https://www.instagram.com/cadif1/?hl=es" target="_blank">
+            <img src="https://w7.pngwing.com/pngs/114/610/png-transparent-instagram-facebook-inc-%E5%9C%B0%E7%90%83%E3%81%AE%E5%8F%8B%E3%81%A8%E6%AD%A9%E3%82%80%E4%BC%9A-graphy-instagram-purple-violet-text.png" alt="" width="50" height="50">
+            </footer>
+</body>
+</html>

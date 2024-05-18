@@ -1,0 +1,33 @@
+3) Monto_Compra=>50$
+*Cantidad calculada de la caja?
+50$
+
+monto_disp>=total
+
+*Tengo suficiente dinero?
+si tengo el dineron mayor a 50$ el resultado es true
+si no tengo el dinero mayor a 50$ el resultado es false
+
+4)Cant_Alunm>8
+
+*Tengo suficientes alumnos?
+Si tengo mas de 8 el resultado es true
+Si no tengo mas de 8 el resultado es false
+
+5)Total_Pagar>10000
+
+*Se le otorga el descuento?
+Se le otorga el descuento si la cantidad de compra es mayor a 10000 true
+No se le otorga el descuento si la cantidad es menor a 10000 false
+
+6)Entradas_Beisbol>=4
+
+*Se va al juego de beisbol?
+Si quedan al menos 4 entradas se va al juego true
+No se va al juego si no hay mayor a 4 entradas false
+
+7)Cant_Productos<=12
+
+Puedo llevar todos los productos?
+Si la cantidad de productos el igual o menos a 12 es true
+Si la cantidad de productos es mayor a 12 es false
